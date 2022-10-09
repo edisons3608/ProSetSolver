@@ -18,7 +18,7 @@ For example...
 For this image, the user will enter in "ryp" for the active red, yellow, and purple spots.
 
 
-**Note that the order in which the user enters the cards does not matter, though it will affect how the program returns the sequence of correct cards.
+**Note that the order in which the user enters the cards does not matter**, though it will affect how the program returns the sequence of correct cards.
 For example...
 The program may return (1,3,5) as a possible sequence. The "1" represents the first card the user entered, "3" for the third, and "5" for the fifth.
 
