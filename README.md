@@ -12,6 +12,7 @@ The console will prompt the user to input the color data of the seven cards.
 For each of the seven cards, input the active colors by listing the first letters of each active color.
 
 ###For example...
+
 <img width="118" alt="Screen Shot 2022-10-09 at 10 20 44 AM" src="https://user-images.githubusercontent.com/57467707/194764985-fbbee4e8-f94b-4b42-8411-1c0f68269115.png">
 
 For this image, the user will enter in "ryp" for the active red, yellow, and purple spots.
