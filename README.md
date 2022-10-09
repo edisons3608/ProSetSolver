@@ -26,5 +26,5 @@ The program may return (1,3,5) as a possible sequence. The "1" represents the fi
 
 
 
-#Dependencies
+## Dependencies
 None - only uses the built-in itertools library
