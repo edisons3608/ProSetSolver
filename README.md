@@ -1,30 +1,37 @@
 # ProSetSolver
 
-(https://www.ocf.berkeley.edu/~dadams/proset/)
-Projective Set solver designed for EXPERT mode
+A Projective Set solver designed for EXPERT mode.
 
+[Projective Set Game](https://www.ocf.berkeley.edu/~dadams/proset/)
 
+## Overview
 
-## Usage
+ProSetSolver helps you find valid sets in the Projective Set card game. The console application prompts you to input the color data of seven cards and returns all possible valid sets.
 
-The console will prompt the user to input the color data of the seven cards.
+## How to Use
 
-For each of the seven cards, input the active colors by listing the first letters of each active color.
+### Input Format
 
-For example...
+The console will prompt you to input the color data for each of the seven cards.
 
-<img width="118" alt="Screen Shot 2022-10-09 at 10 20 44 AM" src="https://user-images.githubusercontent.com/57467707/194764985-fbbee4e8-f94b-4b42-8411-1c0f68269115.png">
+For each card, input the active colors by listing the first letters of each active color:
 
-For this image, the user will enter in "ryp" for the active red, yellow, and purple spots.
+### Example
 
+![Example Card](https://user-images.githubusercontent.com/57467707/194764985-fbbee4e8-f94b-4b42-8411-1c0f68269115.png)
 
-**Note that the order in which the user enters the cards does not matter**, though it will affect how the program returns the sequence of correct cards.
-For example...
-The program may return (1,3,5) as a possible sequence. The "1" represents the first card the user entered, "3" for the third, and "5" for the fifth.
+For this card, you would enter `ryp` for the active red, yellow, and purple spots.
 
+### Output
 
+The program returns the sequence of correct cards as numbered positions.
 
-
+**Note:** The order in which you enter the cards doesn't matter, but it will affect how the program returns the sequence. For example, if the program returns `(1,3,5)`, this means:
+- `1` = first card you entered
+- `3` = third card you entered  
+- `5` = fifth card you entered
 
 ## Dependencies
-None - only uses the built-in itertools library
+
+- **None** - only uses the built-in `itertools` library
+
